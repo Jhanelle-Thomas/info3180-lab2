@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block css %} 
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+{% endblock%}
+
+{% block main %}
+<h1>Profile</h1>
+<hr>
+	<div id="photo">
+		<img src="{{ url_for('static', filename='cute cat.jpg') }}" alt="Cute Cat"/>
+	</div>
+			
+	<div id="info">
+	    <div id="name", class="border">Jhanelle Thomas</div>
+	    
+		<div class = "border inner">Today's date is {{ time }}</div>
+		
+		<div class = "border inner">
+		    <p><b>Username:</b> J-Thomas</p>
+		    <p><b>ID Number:</b> 620068361</p>
+		    <p><b>Age:</b> 22</p>
+		    <p><b>Gender:</b> Female</p>
+		</div>
+		
+		<div class="inner">I am a legendary Jedi Master too. :D</div>
+	</div>
+{% endblock %}

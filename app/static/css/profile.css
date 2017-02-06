@@ -1,0 +1,41 @@
+#photo{
+    float: left;
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid #ebebe0;
+}
+
+#photo img{
+    height: 300px;
+    width: 250px;
+}
+
+#name{
+    background-color: #f0f0f5;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#info{
+    float: right;
+    position: relative;
+    right: 235px;
+    height: 350px;
+    width: 600px;
+    border-radius: 3px;
+    border: 2px solid #ebebe0;
+}
+
+.border{
+    border-bottom: 2px solid #ebebe0;
+}
+
+.inner{
+    width: 550px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
